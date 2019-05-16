@@ -1,0 +1,9 @@
+#!/bin/sh
+MESAJ="$0 <core_aranacak_dizin>"
+if [ $# != 1 ]
+	then
+		echo $MESAJ
+	exit
+fi
+echo Siliniyor!...
+find $1 -name core -exec rm {} \;

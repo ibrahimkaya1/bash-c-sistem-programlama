@@ -1,0 +1,18 @@
+
+#!/bin/bash
+
+echo "1.sayıyı giriniz..."
+read sayi1
+echo "2.sayıyı giriniz..."
+read sayi2
+echo $sayi1
+
+if test $sayi1 -gt $sayi2
+then 
+echo "sayi1 sayi2 den büyük"
+elif test $sayi1 -ge $sayi2
+then
+echo "sayilar birbirine eşit"
+else
+echo "sayi2 sayi1den büyük"
+fi

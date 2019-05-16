@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for i in $*
+do 
+if who|grep -s $i > /home/ibo/Masaüstü/bash_script
+then 
+echo "$i is logged in"
+else
+echo " $i not available"
+fi
+done

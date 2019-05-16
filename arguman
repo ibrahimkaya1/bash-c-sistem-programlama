@@ -1,0 +1,23 @@
+
+#!/bin/bash
+
+declare -a sayilar
+sayilar=($@)
+
+
+for (( i=0;i<"$#";i++))
+do
+for ((j=0;j<"$#";j++))
+do
+	if [ ${sayilar[i]} -lt ${sayilar[j]}  ]
+	then
+		temp=${sayilar[i]}
+		sayilar[i]=${sayilar[j]}
+		sayilar[j]=$temp
+	fi
+done
+done
+for (( i=0; i<"$#";i++))
+do
+	echo ${sayilar[i]}
+done

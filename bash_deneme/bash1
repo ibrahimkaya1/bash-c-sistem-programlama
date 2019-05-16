@@ -1,0 +1,10 @@
+#!/bin/bash
+
+declare -a sporlar
+declare -a moresports
+sports=(basketbol futbol tenis)
+sports[3]=gures
+moresports=(${sports[*]}hockey)
+echo ${sports[*]}
+echo ${moresports[*]}
+

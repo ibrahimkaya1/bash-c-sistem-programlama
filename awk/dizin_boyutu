@@ -1,0 +1,5 @@
+#!/bin/bash
+
+ls -al>lsal
+
+awk 'BEGIN{ toplam=0; sayi=0;}{ toplam+=$5; sayi++; }END{ print toplam, sayi }' lsal

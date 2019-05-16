@@ -1,0 +1,12 @@
+toplam 52
+-rwxrwxr-x 1 ibo ibo 8392 Oca 21 01:42 anagram
+-rw-r--r-- 1 ibo ibo  951 Oca 21 01:42 anagram.c
+-rwxr-xr-x 1 ibo ibo  138 Oca 23 15:25 awkmaxmin
+-rwxr-xr-x 1 ibo ibo   99 Oca 23 15:01 awk_ort
+-rw-rw-r-- 1 ibo ibo    0 Oca 22 22:40 copy.c
+-rw-r--r-- 1 ibo ibo  237 Oca 23 14:07 ders_notları.txt
+-rwxr-xr-x 1 ibo ibo 8528 Oca 20 16:11 fsoru3
+-rw-r--r-- 1 ibo ibo  481 Oca 20 16:15 fsoru3.c
+-rw-r--r-- 1 ibo ibo   25 Oca 20 16:13 ikinci.txt
+-rw-r--r-- 1 ibo ibo   24 Oca 15 14:52 ilk.txt
+-rw-r--r-- 1 ibo ibo    0 Oca 23 15:43 lsa.txt

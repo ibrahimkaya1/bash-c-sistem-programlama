@@ -1,0 +1,21 @@
+#!/bin/bash
+declare -a sayilar
+declare -i say
+echo "sayi girin"
+
+read girilen
+
+say=0
+sayilar[$say]=$girilen
+echo "devam etmek istiyormusun, e/h"
+read yanit
+while [ $yanit == "e" ]
+do 
+(( say++ ))
+echo "sayi girin"
+read girilen
+sayilar[$say]=$girilen
+echo "devam etmek istiyormusunuz e/h"
+read yanit
+done
+echo $sayilar[$*]

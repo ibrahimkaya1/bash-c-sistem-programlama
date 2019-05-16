@@ -1,0 +1,9 @@
+#!/bin/bash
+awk '{
+if($3=="mat"){
+	toplam += $4; sayi++}
+} 
+END {
+	print toplam, sayi, toplam/sayi
+}' ders_notları.txt
+

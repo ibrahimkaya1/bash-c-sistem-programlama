@@ -1,0 +1,12 @@
+#!/bin/bash
+awk 'BEGIN{ 
+a=100
+}{
+if($3=="ing"){
+if(a+0>$4){
+a = $4;
+}
+}
+}
+END{print a
+}' ders_notları.txt

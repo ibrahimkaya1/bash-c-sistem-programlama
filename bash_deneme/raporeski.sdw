@@ -1,0 +1,7 @@
+function cevir()
+{
+	TMPDOSYA=/tmp/tmp.$$
+	mv $1 $TMPDOSYA
+	mv $2 $1
+	mv $TMPDOSYA $2
+}

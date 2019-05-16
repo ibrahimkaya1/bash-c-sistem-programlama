@@ -1,0 +1,16 @@
+#!/bin/bash
+sayi=-1
+for colors in red blue yellow black white green
+do 
+echo $colors
+done
+for dizi in  ${colors[*]}
+do
+((sayi++))
+if [ $sayi == $# ]
+then 
+break;
+else
+echo $dizi
+fi
+done

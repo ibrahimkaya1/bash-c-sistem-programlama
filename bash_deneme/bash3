@@ -1,0 +1,16 @@
+#!/bin/bash
+echo "1.date and time"
+echo "2.Directory listing"
+echo "3.Users information"
+echo "4.Current Directory"
+echo "1,2,3,4 entre choice"
+read choice
+case $choice in
+
+	1)date;;
+	2)ls -l;;
+	3)who;;
+	4)pwd;;
+	*) echo "yanlış sayı girdiniz..."
+
+esac

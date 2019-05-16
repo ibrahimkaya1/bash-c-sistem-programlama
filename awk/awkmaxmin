@@ -1,0 +1,22 @@
+#!/bin/bash
+awk 'BEGIN{
+i=100
+t=100
+m=100
+f=100
+}{
+if ($3=="ing"){
+if ($4<0+i) i=$4
+}else if($3=="tur"){
+if($4<0+t) t=$4
+}
+else if($3=="mat"){
+if($4<0+m) m=$4
+}
+else if($3=="fiz"){
+if($4<0+f) f=$4
+}
+} 
+END{print "ing min=" i "\ntur min=" t "\nmat min=" m "\nfiz min=" f
+}' ders_notları.txt
+awk 'BEGIN{a=   0}{if ($4>0+a) a=$4} END{print a}' ders_notları.txt

@@ -1,0 +1,5 @@
+numara isim vize final
+1001 _atli 15 50
+1002 meltem_ak 45 26
+1003 elim_isik 25 80
+1004 elin_gur 75 95
